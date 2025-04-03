@@ -33,11 +33,27 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Base de datos de preguntas y respuestas
 preguntas_respuestas = {
-    "horario atención hora": "Nuestro horario es de 9 AM a 6 PM.",
-    "ubicación tienda donde": "Nos encontramos en Av. Reforma #123, Ciudad de México.",
-    "contacto soporte ayuda": "Para ayuda escribirnos a soporte@empresa.com.",
-    "productos disponibles venden": "Tenemos laptops, celulares y accesorios electrónicos.",
-    "métodos pago tarjeta": "Aceptamos tarjetas de crédito, débito y pagos en efectivo."
+    "qué es un dragón": "Un dragón es una criatura mitológica que aparece en muchas culturas, usualmente descrita como un reptil gigante que escupe fuego y puede volar.",
+    "cuántos tipos de dragones existen": "Existen muchos tipos según la mitología: dragones europeos, chinos, japoneses, wyverns, entre otros.",
+    "los dragones existen": "Los dragones son criaturas mitológicas, no existen en la realidad, aunque algunas leyendas se inspiraron en fósiles de dinosaurios.",
+    "de dónde vienen los dragones": "Los dragones aparecen en mitologías de Europa, Asia, Medio Oriente y Mesoamérica. Su origen varía según la cultura.",
+    "qué comen los dragones": "En las leyendas, los dragones comen ganado, personas o incluso piedras y metales preciosos, según la versión del mito.",
+    "cómo se comunican los dragones": "Algunos mitos dicen que los dragones pueden hablar, otros solo rugen o se comunican telepáticamente.",
+    "los dragones pueden volar": "Sí, en la mayoría de las leyendas los dragones tienen alas y pueden volar grandes distancias.",
+    "qué poderes tiene un dragón": "Los dragones suelen tener aliento de fuego, fuerza descomunal, vuelo, y a veces poderes mágicos o inmortalidad.",
+    "cuánto vive un dragón": "En la mitología, los dragones pueden vivir cientos o incluso miles de años.",
+    "dónde viven los dragones": "Según las historias, habitan montañas, cuevas profundas, bosques mágicos o incluso en otras dimensiones.",
+    "qué tamaño tienen los dragones": "Su tamaño varía, pero normalmente se los representa como enormes, de varios metros de largo y con alas inmensas.",
+    "los dragones son buenos o malos": "Depende de la cultura. En Europa suelen ser malvados, mientras que en Asia son símbolos de sabiduría y buena fortuna.",
+    "cómo se mata un dragón": "En las leyendas, los héroes usan espadas mágicas o arpones y atacan puntos débiles como el corazón o debajo de las alas.",
+    "hay dragones en harry potter": "Sí, en Harry Potter hay varias especies de dragones, como el Colacuerno Húngaro y el Galés Verde Común.",
+    "los dragones escupen fuego": "Sí, en muchas leyendas los dragones pueden lanzar fuego por la boca como arma ofensiva.",
+    "qué representa un dragón": "Los dragones pueden simbolizar poder, sabiduría, protección o destrucción, según el contexto cultural.",
+    "qué es un wyvern": "Un wyvern es una criatura parecida a un dragón, pero con solo dos patas y dos alas. Es común en la heráldica europea.",
+    "cuál es el dragón más famoso": "Uno de los más famosos es Smaug, de 'El Hobbit' de J.R.R. Tolkien.",
+    "hay dragones en la biblia": "Sí, se mencionan criaturas parecidas a dragones en Apocalipsis y otros libros bíblicos, aunque de forma simbólica.",
+    "cuál es la diferencia entre un dragón oriental y uno occidental": "El dragón oriental es largo, sin alas, sabio y protector. El occidental es alado, escupe fuego y suele ser hostil.",
+    "qué significa soñar con dragones": "Soñar con dragones puede representar desafíos, poder oculto o transformación, dependiendo del contexto del sueño.",
 }
 
 # Preprocesamos las preguntas
